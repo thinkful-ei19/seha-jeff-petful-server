@@ -84,7 +84,8 @@ app.get('/api/cat', function(req, res) {
 });
 
 app.delete('/api/cat/', function(req, res) {
-  res.json(cats.dequeue());
+  cats.dequeue();
+  res.sendStatus(204)
 });
 
 app.get('/api/dog', function(req, res) {
@@ -92,7 +93,8 @@ app.get('/api/dog', function(req, res) {
 });
 
 app.delete('/api/dog/', function(req, res) {
-  res.json(dogs.dequeue());
+  dogs.dequeue();
+  res.sendStatus(204)
 });
 
 
