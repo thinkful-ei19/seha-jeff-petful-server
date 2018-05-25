@@ -29,6 +29,15 @@ const cats = [{
   age: 2,
   breed: 'Bengal',
   story: 'Thrown on the street'
+},
+{
+  imageURL:'https://tailandfur.com/wp-content/uploads/2014/10/animals-with-mustache-9.jpg', 
+  imageDescription: 'Orange bengal cat with black stripes lounging on concrete.',
+  name: 'Fluffy',
+  sex: 'Female',
+  age: 2,
+  breed: 'Bengal',
+  story: 'Thrown on the street'
 }];
 
 const dogs = [{
